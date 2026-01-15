@@ -13,18 +13,17 @@ public class Product implements Fiscal, Income {
 
     @Override
     public double calculateIncome(int quantity, double price) {
-        double income = quantity * price;
-        return income;
+        return quantity * price;
     }
 
     @Override
-    public void calculateIncomeTax(double income) {
-        double incomeTax = income * TAX_RATE;
+    public double calculateIncomeTax(double income) {
+        return income * TAX_RATE;
     }
 
     @Override
-    public void calculateIncome(double income, double incomeTax) {
-        double netIncome = income - incomeTax;
+    public double calculateIncome(double income, double incomeTax) {
+        return income - incomeTax;
     }
 
     public String getName() {

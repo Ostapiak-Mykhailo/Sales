@@ -2,5 +2,5 @@ package base;
 
 public interface Fiscal {
 
-    void calculateIncomeTax(double income);
+    double calculateIncomeTax(double income);
 }
