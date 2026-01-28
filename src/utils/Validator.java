@@ -46,4 +46,3 @@ public class Validator {
         return price;
     }
 }
-
