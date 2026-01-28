@@ -6,7 +6,6 @@ import views.SalesView;
 
 import java.math.BigDecimal;
 
-// Controller
 public class ProductController {
 
     Product model;
